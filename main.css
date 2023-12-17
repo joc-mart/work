@@ -65,7 +65,7 @@ img {
     header {
         display: flex;
         margin: 2% 5% 2% 5%;
-        padding: 1%;
+        padding: 0%;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -101,7 +101,7 @@ img {
     .container {
         display: flex;
         margin: 0;
-        padding: 2% 2% 2% 5%; 
+        padding: 2% 2% 10% 5%; 
     }
     .block-space {
         margin: 0;
