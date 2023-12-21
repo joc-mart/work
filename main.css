@@ -92,6 +92,12 @@ img {
     text-align: center;
 }
 
+/** ebay **/
+.center {
+    display: block;
+    margin: 5%;
+}
+
 /** footer **/
 .footer {
     margin: 0; 
