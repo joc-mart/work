@@ -134,6 +134,12 @@ img {
         margin: 0 auto 5%;
     }
 }
+/****** iframe size *******/
+@media only screen and (min-width: 1260px) {
+    iframe {
+        width: 200%;
+    }
+}
 
 /******** mobile *******/
 @media only screen and (max-width: 667px) {
