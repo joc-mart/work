@@ -240,6 +240,9 @@ img {
     .footer {
         padding: 5%; 
     }
+    img {
+        margin-top: 10%;
+    }
     /** deliverables **/
     
     .con3 {
