@@ -47,6 +47,24 @@ h3 {
 a{
     text-decoration: none;
 }
+.type {
+    margin-right: 10%;
+}
+.bold {
+    font-size: 24pt;
+    font-weight: 700;
+}
+.semibold {
+    font-size: 20pt;
+    font-weight: 600;
+}
+.form {
+    font-size: 18pt;
+    font-weight: 600;
+}
+.copy {
+    font-size: 16pt;
+}
 img {
     max-width: 100%;
     display: block;
