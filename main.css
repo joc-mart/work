@@ -91,11 +91,15 @@ img {
     border-radius: 10px;
     text-align: center;
 }
+.center-img {
+    display: block;
+    margin: auto;
+}
 
 /** ebay **/
 .center {
     display: block;
-    margin: 5%;
+    margin: 5% 20% 5%;
 }
 
 /** footer **/
