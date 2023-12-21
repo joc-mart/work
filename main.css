@@ -8,6 +8,7 @@
     --paleyellow: #f9f6ed;
     --green: #05BB9A;
     --pale-green: #B8E9EB;
+    --dark-green: #0C715C;
 }
 
 html {
@@ -38,7 +39,7 @@ h2 {
     padding: 2% 0% 2% 5%;
 }
 .hero-p {
-    padding-left: 5%;
+    padding: 0 0 5% 5%;
 }
 h3 {
     font-family: var(--font-body);
@@ -71,12 +72,24 @@ img {
     border-radius: 10px;
     /* background color is #E4E0D7 */
 }
-button {
-    background-color: #e3e0d7;
-    border: none;
+.button {
+    background-color: var(--paleyellow);
+    border: 4px solid #e4e0d7;
     color: var(--black);
     padding: 15px 32px;
     border-radius: 10px;
+    text-align: center;
+    margin: 5% 5%;
+}
+.button:hover {
+    background-color: #e4e0d7;
+    color: var(--dark-green);
+}
+.navigation {
+    border: none;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /** footer **/
@@ -108,7 +121,7 @@ button {
         padding: 1rem;
     }
     a:hover {
-        color: var(--green);
+        color: var(--dark-green);
     }
     
     /** hero **/
