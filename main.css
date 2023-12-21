@@ -129,6 +129,10 @@ img {
     .style-guide {
         border: solid var(--black);
     }
+    iframe {
+        display: block;
+        margin: 0 auto 5%;
+    }
 }
 
 /******** mobile *******/
