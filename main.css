@@ -138,6 +138,11 @@ img {
     display: flex;
     margin-right: 40px;
 }
+.container-cozy {
+    display: flex;
+    margin: 0;
+    padding: 2% 2% 0% 5%; 
+}
 
 /******** desktop *******/
 /** header **/ 
