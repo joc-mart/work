@@ -73,6 +73,9 @@ img {
     border-radius: 10px;
     /* background color is #E4E0D7 */
 }
+.block-img {
+    margin: 10px;
+}
 .button {
     background-color: var(--paleyellow);
     border: 4px solid #e4e0d7;
@@ -191,6 +194,9 @@ img {
     iframe {
         display: block;
         margin: 0 auto 5%;
+    }
+    .frame {
+        width: 50%;
     }
 }
 /****** iframe size *******/
