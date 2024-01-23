@@ -311,6 +311,9 @@ img {
     img {
         margin-top: 10%;
     }
+    .container-more {
+        margin-top: 20%;
+    }
     /** deliverables **/
     .con3 {
         order:2;
