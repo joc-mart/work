@@ -234,11 +234,10 @@ img {
     /** home **/
     header {
         display: flex;
-        margin: 6% 5% 2% 5%;
+        margin: 6% 5% 6% 5%;
         padding: 1%;
         flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: space-between;
         align-items: center;
     }
     .page-title {
@@ -246,12 +245,14 @@ img {
     }
     ul {
         display: flex;
+        flex-direction: column;
         margin: 0;
         padding: 0;
     }
     nav li {
-        padding: .4rem;
+        padding: 1rem;
     }
+    /** hero **/
     .hero {
         margin: 5%;
         display: flex;
@@ -268,11 +269,30 @@ img {
         order:1;
     }
     .logo {
-        max-width: 70%;
+        display: none;
     }
+    .hero h2 {
+        padding: 0;
+        margin-top: 6%;
+    }
+    .hero-p {
+        padding: 2% 0 6% 0;
+    }
+    a.button {
+        margin: 0;
+    }
+
      /** all **/
-     .container {
-        padding: 5%;
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        padding: 0;
+    }
+     h3 {
+        font-size: 2rem;
+    }
+    .container {
+        padding: 0% 5%;
         display: flex;
         flex-direction: column;
     }
@@ -292,7 +312,6 @@ img {
         margin-top: 10%;
     }
     /** deliverables **/
-    
     .con3 {
         order:2;
     }
