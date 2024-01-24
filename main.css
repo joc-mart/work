@@ -115,6 +115,12 @@ img {
     display: block;
     border-radius: 10px;
 }
+.container-ebay {
+    padding-left: 5%;
+}
+.container-img {
+    margin-bottom: 5%;
+}
 /** footer **/
 .footer {
     margin: 0; 
