@@ -146,7 +146,7 @@ img {
 
 /******** desktop *******/
 /** header **/ 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 820px) {
     header {
         display: flex;
         margin: 2% 5% 2% 5%;
@@ -229,7 +229,7 @@ img {
 }
 
 /******** mobile *******/
-@media only screen and (max-width: 979px) {
+@media only screen and (max-width: 819px) {
        
     /** home **/
     header {
