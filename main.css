@@ -296,6 +296,10 @@ img {
         display: flex;
         flex-direction: column;
     }
+    .center {
+        margin: 0;
+        padding: 0 5%;
+    }
     .heading {
         padding: 5%;
     }
