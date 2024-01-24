@@ -77,7 +77,7 @@ img {
     border-radius: 0;
 }
 .cozy-img--styleguide {
-    max-width: 50%;
+    max-width: 75%;
 }
 .button {
     background-color: var(--paleyellow);
