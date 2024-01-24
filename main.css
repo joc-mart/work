@@ -317,6 +317,9 @@ img {
     img {
         margin-top: 10%;
     }
+    .cozy-img--styleguide {
+        max-width: 100%;
+    }
     .container-more {
         margin-top: 20%;
     }
