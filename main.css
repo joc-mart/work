@@ -130,6 +130,9 @@ img {
     bottom: 0;
     width: 100%;
 }
+.footer a:hover{
+    color: var(--paleyellow);
+}
 
 /** cozy **/
 .block-cozy {
@@ -225,6 +228,11 @@ img {
     .frame {
         width: 50%;
     }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 /****** iframe size *******/
 @media only screen and (min-width: 1260px) {
@@ -259,7 +267,7 @@ img {
     }
     /** hero **/
     .hero {
-        margin: 5%;
+        margin: 5% 5% 20% 5%;
         display: flex;
         flex-direction: column;
     }
