@@ -272,7 +272,7 @@ img {
         flex-direction: column;
     }
     .block {
-        margin-left: auto;
+        /* margin-left: auto; */
         margin-right: auto;
     }
     .con1 {
@@ -336,6 +336,9 @@ img {
     }
     .container-more {
         margin-top: 20%;
+    }
+    .bottom {
+        margin-bottom: 5rem;
     }
     /** deliverables **/
     .con3 {
