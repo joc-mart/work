@@ -160,7 +160,7 @@ img {
     margin: 3%;
 }
 .photos {
-    width: 500px;
+    width: 50%;
     border-radius: 0;
     padding: 3%;
 }
@@ -252,6 +252,9 @@ img {
     }
     .center-block iframe {
         margin-top: 1em;
+    }
+    .photos {
+        width: 50%;
     }
 }
 /****** iframe size *******/
@@ -364,6 +367,9 @@ img {
     }
     .bottom {
         margin-bottom: 5rem;
+    }
+    .photos {
+        width: 100%;
     }
     /** deliverables **/
     .con3 {
