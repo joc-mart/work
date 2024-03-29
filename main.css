@@ -154,6 +154,17 @@ img {
     margin: 0;
     padding: 2% 2% 0% 5%; 
 }
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+.photos {
+    width: 500px;
+    border-radius: 0;
+    padding: 3%;
+}
+
 
 /******** desktop *******/
 /** header **/ 
@@ -235,6 +246,12 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .container-other {
+        width: 50%;
+    }
+    .center-block iframe {
+        margin-top: 1em;
     }
 }
 /****** iframe size *******/
@@ -335,6 +352,9 @@ img {
     }
     .cozy-img--styleguide {
         max-width: 100%;
+    }
+    .center-block iframe {
+        margin-top: 2em;
     }
     .container-more {
         margin-top: 20%;
