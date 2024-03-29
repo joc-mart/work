@@ -235,7 +235,7 @@ img {
     .style-guide {
         border: solid var(--black);
     }
-    iframe {
+    iframe video {
         display: block;
         margin: 0 auto 5%;
     }
@@ -355,6 +355,9 @@ img {
     }
     .center-block iframe {
         margin-top: 2em;
+    }
+    video {
+        width: 100%;
     }
     .container-more {
         margin-top: 20%;
